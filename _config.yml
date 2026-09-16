@@ -1,0 +1,7 @@
+# Publish the static root pages; keep the imported reference and tooling private.
+url: "https://yibinsun.github.io"
+exclude:
+  - code
+  - scripts
+  - README.md
+  - redirects.json

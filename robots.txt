@@ -1,1 +1,4 @@
-Sitemap: https://heitorgomes.com/sitemap.xml
+User-agent: *
+Allow: /
+Disallow: /code/
+Sitemap: https://yibinsun.github.io/sitemap.xml

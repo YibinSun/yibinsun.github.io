@@ -1,0 +1,27 @@
+/* Local refinements to the imported AcademicPages layout. */
+body { line-height: 1.65; }
+.greedy-nav .visible-links { display: flex; flex-wrap: wrap; }
+.greedy-nav .visible-links li { display: block; }
+.greedy-nav .visible-links li:first-child { font-weight: bold; }
+.greedy-nav a { margin: 0 1rem; }
+.greedy-nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: .35em; }
+.author__urls-wrapper { display: block; }
+.author__urls { display: block !important; position: static; background: transparent; border: 0; box-shadow: none; padding: 0; }
+.author__urls::before, .author__urls::after { display: none; }
+.author__urls li { white-space: normal; }
+.author__avatar img { height: auto; }
+.page__content h2 { margin-top: 1.8em; }
+.publication-list li { margin-bottom: 1.5rem; }
+.publication-year, .section-label, .card-number { color: #626b70; font-size: .85em; }
+.card-number { display: none; }
+.skip-link { position: absolute; top: -100px; left: 1rem; z-index: 100; background: white; padding: .5rem; }
+.skip-link:focus { top: 0; }
+.page__footer { position: static; margin-top: 3rem; }
+body { padding-bottom: 0; }
+@media (max-width: 767px) {
+  .masthead__inner-wrap { padding: 1rem .5rem; }
+  .greedy-nav a { margin: .35rem .6rem; }
+  .greedy-nav .visible-links li:first-child { width: 100%; }
+  .sidebar { margin-bottom: 2rem; }
+  .author__urls-wrapper { margin-top: 1rem; }
+}
